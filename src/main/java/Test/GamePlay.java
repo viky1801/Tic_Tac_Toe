@@ -51,7 +51,7 @@ public class GamePlay {
 
     }
 
-    @Test(priority = 3)
+    @AfterClass
     void Teardown()
     {
         driver.quit();
